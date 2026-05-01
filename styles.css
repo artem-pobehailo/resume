@@ -43,19 +43,22 @@ ol {
 }
 .sidbar {
   background-color: #e9f3f8;
-  width: 370px;
+  width: 300px;
   height: auto;
-  border-radius: 24;
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   margin: 0 auto;
-  padding-top: 40px;
 }
 .profile-photo {
+  display: block;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+
+  border: 4px solid #b0b4b4;
+  margin: 40px auto;
   overflow: hidden;
   object-fit: cover;
-  margin: 0 auto;
-  padding-bottom: 40px;
 }
 .title {
   font-size: 20px;
@@ -83,3 +86,29 @@ ol {
   text-decoration: underline;
   color: #000;
 }
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 80px 90px;
+  width: 900px;
+  background-color: #fff;
+  }
+  .titel-main{
+    padding-bottom: 90px;
+  }
+.main-title{
+  font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000;
+    width: 200px;
+    margin-bottom: 15px;
+    color: #5c8ae0;
+  }
+  .mainSubtitle{
+     font-size: 20px;
+  font-weight: 700;
+
+  padding: 10px 40px;
+  color: #000;
+  }

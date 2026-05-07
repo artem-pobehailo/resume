@@ -97,7 +97,7 @@ height: 250px;
 .main{
   display: flex;
   flex-direction: column;
-  padding: 75px 60px;
+  padding: 50px 60px;
 
   background-color: #fff;
   }
@@ -129,6 +129,14 @@ color: #5c8ae0;
 .experienceText{
 padding-bottom: 5px;
 font-weight: normal
+}
+
+.mainImput {
+display: flex;
+gap: 20px;
+padding-top: 10px;
+
+
 }
 
 @media (max-width: 768px) {
